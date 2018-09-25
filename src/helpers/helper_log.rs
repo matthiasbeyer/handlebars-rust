@@ -1,10 +1,10 @@
-use context::Context;
-use error::RenderError;
-use helpers::{HelperDef, HelperResult};
-use output::Output;
-use registry::Registry;
-use render::{Helper, RenderContext};
-use value::JsonRender;
+use crate::context::Context;
+use crate::error::RenderError;
+use crate::helpers::{HelperDef, HelperResult};
+use crate::output::Output;
+use crate::registry::Registry;
+use crate::render::{Helper, RenderContext};
+use crate::value::JsonRender;
 
 #[derive(Clone, Copy)]
 pub struct LogHelper;
